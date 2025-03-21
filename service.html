@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Burger Hut</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Burger Hut</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services">
+        <div class="content">
+            <h2>Our Services</h2>
+            <p>At Burger Hut, we provide the best burger experience in a cozy environment. Here are the services we offer:</p>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Delicious Burgers</h3>
+                    <p>Our burgers are made with the finest ingredients, offering you a variety of flavors to enjoy.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Cozy Ambience</h3>
+                    <p>We provide a comfortable and relaxing atmosphere where you can enjoy your meal with friends and family.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Fast Delivery</h3>
+                    <p>We offer fast and reliable delivery services so you can enjoy your favorite burgers at home.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Loyalty Program</h3>
+                    <p>Join our loyalty program for exclusive offers, discounts, and rewards on your next visit.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Special Events</h3>
+                    <p>We host special events, including burger festivals and live music nights, for a fun dining experience.</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+   <!-- Feedback Form Section (At the end of the page) -->
+<section id="feedback" style="padding: 50px 0; background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a1c4fd, #c2e9fb); background-size: 400% 400%; animation: gradientBG 15s ease infinite;">
+    <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
+        <h2 style="text-align: center; font-size: 28px; color: #ff6a88; margin-bottom: 20px;">We Value Your Feedback</h2>
+        <p style="text-align: center; font-size: 16px; color: #333;">Please share your feedback or any issues you encountered with our services. Your opinion matters to us!</p>
+
+        <form action="/submit-feedback" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+            <div style="display: flex; flex-direction: column;">
+                <label for="name" style="font-size: 18px; color: #333; font-weight: bold;">Full Name</label>
+                <input type="text" id="name" name="name" style="padding: 12px; font-size: 16px; border: 2px solid #ff6a88; border-radius: 5px; outline: none;" required placeholder="Enter your name" />
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label for="email" style="font-size: 18px; color: #333; font-weight: bold;">Email Address</label>
+                <input type="email" id="email" name="email" style="padding: 12px; font-size: 16px; border: 2px solid #ff6a88; border-radius: 5px; outline: none;" required placeholder="Enter your email" />
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <label for="message" style="font-size: 18px; color: #333; font-weight: bold;">Your Feedback</label>
+                <textarea id="message" name="message" style="padding: 12px; font-size: 16px; border: 2px solid #ff6a88; border-radius: 5px; outline: none; resize: vertical;" rows="6" required placeholder="Share your experience or issue"></textarea>
+            </div>
+            <div style="text-align: center;">
+                <button type="submit" style="background-color: #ff6a88; color: white; padding: 12px 20px; font-size: 18px; border: none; border-radius: 5px; cursor: pointer; width: 100%;">Submit Feedback</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<style>
+    @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+</style>
+
+
+<style>
+    @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+</style>
+
+</body>
+</html>
